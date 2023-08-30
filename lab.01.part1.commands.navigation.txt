@@ -16,7 +16,44 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files mcmfilm@gmail.com 0fe9e33d6c9695eff74c811ce19c897c89a52374ca0adb310a7189a14b712c4c'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{c03ecf54-aecf-11ed-9054-87c5d0b183d7}.TM.blf
+ NTUSER.DAT{c03ecf54-aecf-11ed-9054-87c5d0b183d7}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{c03ecf54-aecf-11ed-9054-87c5d0b183d7}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ansel/
+'gabebug@gmail.com Creative Cloud Files'/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
 
 
 
@@ -28,7 +65,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+Adobe/
+Downloads/
 
 
 
@@ -40,9 +78,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
-
+./                                    'My Games'/     'Sound recordings'/
+ ../                                   'My Music'@      Untitled-1.png
 
 
 ==========
@@ -53,14 +90,12 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
-
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
+Up Arrow Key
 
 
 
@@ -68,13 +103,13 @@ Copy and paste the output below.
 ==========
 6.  Name two flags/options that we used in this exercise.
 ----------
-
-
+-l (displays detailed view with metadata)
+-a (displays hidden things)
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 
@@ -83,7 +118,7 @@ Copy and paste the output below.
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-
+Documents
 
 
 
@@ -96,6 +131,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+bash: foo: command not found
 
 
 
