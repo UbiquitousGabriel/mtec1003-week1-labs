@@ -65,8 +65,10 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-Adobe/
-Downloads/
+total 2355
+drwxr-xr-x 1 TheBl 197609       0 Mar 30 20:57  Adobe/
+drwxr-xr-x 1 TheBl 197609       0 Nov  2  2019  Downloads/
+
 
 
 
@@ -143,6 +145,7 @@ bash: foo: command not found
 
 Copy and paste the output below.
 ----------
+bash: foo: command not found
 
 
 
@@ -156,10 +159,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
-
-
-
+command: ls
+flag: -a
+argument: Desktop
+prompt: $
 
 
 Lab 1 / Part 2 - Navigating the File System
