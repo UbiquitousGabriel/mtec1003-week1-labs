@@ -14,18 +14,21 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 1. Write the command that you would use to change to the root directory.
 ----------
+$  cd \
 
 
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
+$ cd ~
 
 
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
+/c/Users/TheBl/Desktop
 
 
 
@@ -33,6 +36,8 @@ Feel free to use your workstation to test your answers to the questions that don
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
+$ mkdir -p /Desktop/Gabrielslays
+mkdir: cannot create directory ‘/Desktop’: Permission denied (I assume this is how you would do it but my settings don't allow for it)
 
 
 
@@ -40,20 +45,23 @@ called stuff without changing your directory?  Write your command below.
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
+$ cd ../..
 
 
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
-
+$ cd -
 
 
 ==========
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
-
+$ ls -ait Desktop
+$ ls -alt Desktop (This one should be right?)
+$ $ ls -l Desktop (No sorry, it's just the L and I'm le stupid)
 
 
 ==========
@@ -74,6 +82,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
+hello there
 
 
 
@@ -85,6 +94,8 @@ $ echo whoa
 
 Copy and paste the output below.
 ----------
+$ echo whoa
+whoa
 
 
 
@@ -95,6 +106,20 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
+$ echo good mornin'
+>
+>
+>
+>
+> (These are me spamming enter to try to get out of this weird hiccup before remembering that copy takes me out of the current (Prompt?Line?Code?Function?))
+>
+>
+>
+>
+>
+>
+>
+> ^C
 
 
 
@@ -103,7 +128,7 @@ Copy and paste the output below.
 
 Type [CTRL + C] to get your prompt back.
 ----------
-
+(Oh lol, I just did this)
 
 
 ==========
@@ -113,6 +138,8 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
+$ echo "good mornin'"
+good mornin'
 
 
 
@@ -124,7 +151,8 @@ $ echo *
 
 What happens?
 ----------
-
+3D Objects AppData Application Data Contacts Cookies Creative Cloud Files Creative Cloud Files mcmfilm@gmail.com 0fe9e33d6c9695eff74c811ce19c897c89a52374ca0adb310a7189a14b712c4c Desktop Documents Downloads Favorites IntelGraphicsProfiles Links Local Settings MicrosoftEdgeBackups Music My Documents NTUSER.DAT NTUSER.DAT{c03ecf54-aecf-11ed-9054-87c5d0b183d7}.TM.blf NTUSER.DAT{c03ecf54-aecf-11ed-9054-87c5d0b183d7}.TMContainer00000000000000000001.regtrans-ms NTUSER.DAT{c03ecf54-aecf-11ed-9054-87c5d0b183d7}.TMContainer00000000000000000002.regtrans-ms NetHood OneDrive Pictures PrintHood Recent Roaming Saved Games Searches SendTo Start Menu Templates Videos ansel gabebug@gmail.com Creative Cloud Files mtec1003 ntuser.dat.LOG1 ntuser.dat.LOG2 ntuser.ini
+ (Lists the files in my user folder?)
 
 
 
@@ -133,6 +161,7 @@ What happens?
 
 Write the command that you used below:
 ----------
+$ clear
 
 
 
