@@ -314,7 +314,9 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
+$ ls -1
+foo/
+food/
 
 
 
@@ -327,7 +329,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/TheBl
 
 
 
@@ -341,6 +343,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+bash: cd: /Volumes: No such file or directory
+/c/Users/TheBl
 
 
 
@@ -353,7 +357,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+bash: cd: /unknown_folder: No such file or directory
 
+/c/Users/TheBl
 
 
 
@@ -366,6 +372,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/c/Users/TheBl/mtec1003
 
 
 
@@ -378,6 +385,7 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
+DESKTOP-TRMA0M1
 
 
 
@@ -386,6 +394,8 @@ Copy and paste the output into the space below.
 ==========
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
+$ pwd
+/c/Users/TheBl/mtec1003
 
 
 
@@ -397,7 +407,7 @@ cd ~/mtec1003
 
 Otherwise skip this question/step!
 ----------
-
+Skipped
 
 
 
@@ -414,6 +424,7 @@ lemon
 
 Write the one command you used below:
 ----------
+$ mkdir -p lemon/strawberry/orange/pineapple
 
 
 
@@ -424,6 +435,7 @@ Write the one command you used below:
 
 Write the command you used to create the directory below:
 ----------
+$ mkdir aardvark
 
 
 
@@ -434,8 +446,9 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
+09/25/2023 (I know this)
 
-
+13792273858901862 aardvark/  (Displayed via command $ ls -ait)
 
 
 
@@ -448,6 +461,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
+$ mkdir -p foo/bar/baz
 
 
 
@@ -458,6 +472,7 @@ What command did you use?
 
 What command did you use?
 ----------
+$ cd ~/mtec1003/foo/bar/baz (Used)
 
 
 
@@ -468,6 +483,7 @@ What command did you use?
 
 What command did you use?
 ----------
+$ cd ../..
 
 
 
@@ -476,7 +492,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 
@@ -484,7 +500,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 
@@ -492,7 +508,7 @@ What command did you use?
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
-
+-a
 
 
 
@@ -500,7 +516,7 @@ What command did you use?
 ==========
 39. What's the shortcut for home directory?
 ----------
-
+~
 
 
 
@@ -508,7 +524,7 @@ What command did you use?
 ==========
 40. What's a pathname?
 ----------
-
+A pathname is the name of a file or directory
 
 
 
@@ -516,7 +532,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+A directory is a cataloging structure on a file system that references other files.
 
 
 
@@ -524,4 +540,8 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/c/Users/TheBl/Downloads/
+
+/c/Users/TheBl/Downloads
+
 
