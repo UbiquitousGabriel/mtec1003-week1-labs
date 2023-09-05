@@ -177,13 +177,14 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
-
+$ mkdir mtec1003
 
 
 
 ==========
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
+$ cd mtec1003
 
 
 
@@ -201,6 +202,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
+/c/Users/TheBl/mtec1003
 
 
 
@@ -214,6 +216,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/
 
 
 
@@ -226,7 +229,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/  food/
 
 
 
@@ -240,7 +243,8 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals	foo	food
+animals/  foo/  food/
+
 
 
 
@@ -254,6 +258,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/TheBl/mtec1003/foo/bar/baz/qux
 
 
 
@@ -267,6 +272,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/TheBl/mtec1003/foo/bar
 
 
 
@@ -280,6 +286,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/TheBl/mtec1003/foo/bar/baz/qux
 
 
 
@@ -292,6 +299,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/c/Users/TheBl/mtec1003
 
 
 
